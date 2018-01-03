@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<title>WFH UPDATE</title>
+
+</head>
+<body style="background-color:#e7e7e7">
+<header>
+    </header>
+	<h1 style="text-align:center">WORK FROM HOME TRACKER
+	</h1>
+	 
+
+<div>
+    <form method="post" action="{{ url_for('hello') }}">
+    <fieldset>
+	<div>
+                <label for="date">START DATE: </label>
+                <input type="date" id="sdate" name="sdate" required="required"/>
+				
+				<label for="date">END DATE: </label>
+                <input type="date" id="edate" name="edate" required="required"/>
+        <br />
+    </fieldset>
+	<br />
+	<button id="b1" style="float:center;width:15%;background-color:#BBBBBB;color:#000">Check</button>
+</form>
+</div>
+
+
+
+
+<div class="footer" style="position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #BBBBBB;
+  text-align: center;">
+<p>Created By: Shivam Garg & Neha Kumari
+</p>
+</div>
+
+</body>
+</html> 
+ 
